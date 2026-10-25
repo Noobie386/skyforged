@@ -71,7 +71,7 @@ public class SkyforgedClient implements ClientModInitializer {
 			Identifier.fromNamespaceAndPath(Skyforged.MOD_ID, "hud"),
 			(graphics, tickCounter) -> {
 				Minecraft mc = Minecraft.getInstance();
-				if (mc.player == null || mc.options.hideGui) {
+				if (mc.player == null) {
 					return;
 				}
 
