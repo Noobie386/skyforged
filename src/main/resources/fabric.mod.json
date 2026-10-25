@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "skyforged",
+	"version": "${version}",
+	"name": "Skyforged",
+	"description": "Skills that level as you play, plus three cooldown-based voice shouts: Gale Push, Ember Breath and Blink Step.",
+	"authors": [],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.skyforged.Skyforged"
+		],
+		"client": [
+			"com.skyforged.client.SkyforgedClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
